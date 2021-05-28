@@ -1,4 +1,5 @@
-const book = [{
+const book = [
+  {
     id: String,
     name: String,
     year: Number,
@@ -7,7 +8,8 @@ const book = [{
     publisher: String,
     pageCount: Number,
     readPage: Number,
-    reading: Boolean
-}];
+    reading: Boolean,
+  },
+];
 
 module.exports = book;
